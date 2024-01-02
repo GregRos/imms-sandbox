@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Imms/0.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Imms.Abstract.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Imms.dll": {
+            "related": ".Abstract.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Imms.Abstract.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Imms.dll": {
+            "related": ".Abstract.XML"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Imms/0.7.0": {
+      "sha512": "pc8Vu2HtYlHHRbVvZSgTihv20/SBdEEle9317QE5x5XE2FSvj8mLb/s3vArgkfeoBnTqHQZiZIb4tY7QN7q/lQ==",
+      "type": "package",
+      "path": "imms/0.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imms.0.7.0.nupkg.sha512",
+        "imms.nuspec",
+        "lib/net45/Imms.Abstract.XML",
+        "lib/net45/Imms.Abstract.dll",
+        "lib/net45/Imms.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Imms >= 0.7.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/vscode/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspaces/codespaces-blank/codespaces-blank.csproj",
+      "projectName": "codespaces-blank",
+      "projectPath": "/workspaces/codespaces-blank/codespaces-blank.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/codespaces-blank/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Imms": {
+            "target": "Package",
+            "version": "[0.7.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Imms 0.7.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Imms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

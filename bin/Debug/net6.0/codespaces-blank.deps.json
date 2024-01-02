@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "codespaces-blank/1.0.0": {
+        "dependencies": {
+          "Imms": "0.7.0"
+        },
+        "runtime": {
+          "codespaces-blank.dll": {}
+        }
+      },
+      "Imms/0.7.0": {
+        "runtime": {
+          "lib/net45/Imms.Abstract.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net45/Imms.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "codespaces-blank/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Imms/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pc8Vu2HtYlHHRbVvZSgTihv20/SBdEEle9317QE5x5XE2FSvj8mLb/s3vArgkfeoBnTqHQZiZIb4tY7QN7q/lQ==",
+      "path": "imms/0.7.0",
+      "hashPath": "imms.0.7.0.nupkg.sha512"
+    }
+  }
+}
